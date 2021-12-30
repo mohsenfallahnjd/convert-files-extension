@@ -25,4 +25,4 @@ const changeFilesExtension = async (path, from = 'js', to = 'ts') => {
     }
 }
 
-changeFilesExtension('../../../dev/Groot/themes/banamak/src/nodes/services/resources');
+changeFilesExtension('YOUR_DIRECTORY_PATH');
