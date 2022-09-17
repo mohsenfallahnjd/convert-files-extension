@@ -1,18 +1,33 @@
 {
-  "name": "snipped",
-  "title": "Snipped",
+  "name": "convert-files-extension",
+  "title": "convert files extension",
   "version": "1.0.0",
-  "description": "",
+  "description": "The Converter of Files Extension from any to any",
+  "type": "module",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "license": "ISC",
-  "type": "module",
   "dependencies": {
     "fs-extra": "^10.0.0"
   },
   "engines": {
     "node": ">=12.2.0"
-  }
+  },
+  "keywords": [
+    "extension",
+    "js",
+    "files",
+    "convert"
+  ],
+  "author": "Mohsen Fallahnejad <mohsenfallahnjd@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mohsenfallahnjd/convert-files-extension.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mohsenfallahnjd/convert-files-extension/issues"
+  },
+  "homepage": "https://github.com/mohsenfallahnjd/convert-files-extension#readme"
 }

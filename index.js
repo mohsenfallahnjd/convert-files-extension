@@ -8,7 +8,7 @@ import { exec } from 'child_process';
  * @param {string} from - current extension
  * @param {string} to - destination extension
  */
-const changeFilesExtension = async (path, from = 'js', to = 'ts') => {
+export const changeFilesExtension = async (path, from = 'js', to = 'ts') => {
     try {
         const files = fs.readdirSync(path);
         await files.forEach(f => {
@@ -24,5 +24,3 @@ const changeFilesExtension = async (path, from = 'js', to = 'ts') => {
         await console.log(e);
     }
 }
-
-changeFilesExtension('YOUR_DIRECTORY_PATH');
