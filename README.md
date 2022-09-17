@@ -1,6 +1,14 @@
 # convert files extension
 Convert Files Extension from any to any
 
+## install
+```js
+    npm i convert-files-extension
+```
+```js
+    yarn add convert-files-extension
+```
+
 > hint: this snipped, work on linux base os.
 
 
